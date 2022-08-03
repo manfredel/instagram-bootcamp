@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { onChildAdded, push, ref, set } from "firebase/database";
-import { database, storage, auth } from "./firebase";
+import { auth } from "./firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import logo from "./logo.png";
 import "./App.css";
